@@ -1,0 +1,42 @@
+baseURL = "https://kirillin.github.io"
+languageCode = "en-us"
+title = "kirillin"
+theme = "artcv"
+copyright = "© kirillin"
+
+[params]
+  author = "Kirill Artemov"
+
+[markup]
+  [markup.goldmark.renderer]
+    hardWraps = true
+
+[[menu.main]]
+  name = "YouTube"
+  url = "https://youtube.com/@kartemov"
+  weight = 91 
+
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com/kirillin"
+  weight = 91 
+
+[[menu.main]]
+  name = "Telegram"
+  url = "https://t.me/kartemov"
+  weight = 92 
+
+[[menu.main]]
+  name = "Email"
+  url = "mailto:kaartemov@gmail.com"
+  weight = 93 
+
+[[menu.main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/kartemov"
+  weight = 94
+
+[[menu.main]]
+  name = "CV"
+  url = ""
+  weight = 95
